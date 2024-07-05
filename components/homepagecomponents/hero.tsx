@@ -63,14 +63,14 @@ const Hero: React.FC = () => {
       <h1 className=' text-2xl md:text-6xl font-bold '>
       NEXT EVENT: CRYPTO FEST 2024
       </h1>
-    <div className='flex items-center justify-between'>
+    <div className='flex items-center gap-x-4 justify-between'>
     <div className='flex gap-x-3'>
         <SlCalender size={24}/>
         <p>10-11 July, 2024</p>
       </div>
-      <div className='flex gap-x-3'>
+      <div className='flex gap-x-3 items-center'>
         <FaLocationArrow size={24}/>
-        <p> Cape Town, South Africa</p>
+        <p className='text-xs'> One Western Gateway,<br /> Royal Victoria Dock, <br /> London, Greater London,E16 1XL</p>
       </div>
     </div>
     </div>
